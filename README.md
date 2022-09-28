@@ -67,9 +67,9 @@ All tree traits were collected as part of the following study (details in this t
 | Carbon concentration                                 | Carbon conc.                    | Traits_Carbon_conc |
 | Nitrogen concentration                               | Max. photosyn. rate: N(%)       | Traits_N_perc      |
 | Phosphorous concentration                            | Max. photosyn. rate: P(mass)    | Traits_Phos_mass   |
-| Magnesium concentration                              |  Regulat. nutrients: Total Mg   | Traits_Total_Mg    |
-| Potassium concentration                              |  Regulat. nutrients: Total K    | Traits_Total_K     |
-| Calcium concentration                                |  Regulat. nutrients: Total Ca   | Traits_Total_Ca    |
+| Magnesium concentration                              | Regulat. nutrients: Total Mg    | Traits_Total_Mg    |
+| Potassium concentration                              | Regulat. nutrients: Total K     | Traits_Total_K     |
+| Calcium concentration                                | Regulat. nutrients: Total Ca    | Traits_Total_Ca    |
 
 ***Structural Traits***
 
@@ -90,38 +90,40 @@ All tree traits were collected as part of the following study (details in this t
 
 ### Level 3 -  Biodiversity
 
-| Dataset                                          | Label                         | Filename                      | Collector             |
-| ---                                              | ---                           | ---                           | ---                   |
-| Soil ectomycorrhizal richness                    | Soil richness: Ectomycorrhiza | Soil_richness_Ectomycorrhiza  | Dafydd Elias          |
-| Soil bacterial richness                          | Soil richness: Bacteria       | Soil_richness_Bacteria        | Dafydd Elias          |
-| Soil protist richness                            | Soil richness: Protists       | Soil_richness_Protist         | Dafydd Elias          |
-| Soil fungal richness                             | Soil richness: Fungi          | Soil_richness_Fungi           | Dafydd Elias          |
-| Leaf spectral diversity                          | Spectral diversity            | Spectral_diversity            | Matheus Nunes         |
-| Liana abundance                                  | Liana abundance               | Liana_abundance               | Boris Bongalov        |
-| Dung beetle abundance                            | Dung beetle abund.            | Dung_beetle_abundance         | Eleanor Slade         |
-| Dung beetle diversity: richness                  | Dung beetle diversity: q=0    | Dung_beetle_diversity_q=0     | Eleanor Slade         |
-| Dung beetle diversity: Shannon diversity         | Dung beetle diversity: q=1    | Dung_beetle_diversity_q=1     | Eleanor Slade         |
-| Dung beetle diversity: Simpsons diversity        | Dung beetle diversity: q=2    | Dung_beetle_diversity_q=2     | Eleanor Slade         |
-| Bird abundance                                   | Bird abund.                   | Bird_abundance                | Simon Mitchell        |
-| Bird diversity: richness                         | Bird diversity: q=0           | Bird_diversity_q=0            | Simon Mitchell        |
-| Bird diversity: Shannon diversity                | Bird diversity: q=1           | Bird_diversity_q=1            | Simon Mitchell        |
-| Bird diversity: Simpsons diversity               | Bird diversity: q=2           | Bird_diversity_q=2            | Simon Mitchell        |
-| Bat abundance                                    | Bat abund.                    | Bat_abundance                 | Dave Hemprich-Bennett |
-| Bat diversity (small scale)                      | Bat diversity (sm scale)      | Bat_diversity_small_scale     | Dave Hemprich-Bennett |
-| Bat diversity (large scale): richness            | Bat diversity (lg scale): q=0 | Bat_diversity_large_scale_q=0 | Dave Hemprich-Bennett |
-| Bat diversity (large scale): Shannon diversity   | Bat diversity (lg scale): q=1 | Bat_diversity_large_scale_q=1 | Dave Hemprich-Bennett |
-| Bat diversity (large scale): Simpsons diversity  | Bat diversity (lg scale): q=2 | Bat_diversity_large_scale_q=2 | Dave Hemprich-Bennett |
-| Bat β-diversity: Nestedness                      | Bat β-diversity: Nested.      | Bat_beta_diversity_Nestedness | Dave Hemprich-Bennett |
-| Bat β-diversity: Turnover                        | Bat β-diversity: Turn.        | Bat_beta_diversity_Turnover   | Dave Hemprich-Bennett |
-| Bat β-diversity: Total                           | Bat β-diversity: Total        | Bat_beta_diversity_Total      | Dave Hemprich-Bennett |
+| Dataset                                        | Label                                       | Filename                      | Collector              |
+| ---                                            | ---                                         | ---                           | ---                    |
+| Soil bacterial richness                        | Soil microbial richness: Bacteria           | Soil_richness_Bacteria        | Dafydd Elias           |
+| Soil protist richness                          | Soil microbial richness: Protists           | Soil_richness_Protist         | Dafydd Elias           |
+| Soil ectomycorrhizal richness                  | Soil fungal richness: Ectomycorrhiza        | Soil_richness_Ectomycorrhiza  | Dafydd Elias           |
+| Soil fungal richness                           | Soil fungal richness: Fungi                 | Soil_richness_Fungi           | Dafydd Elias           |
+| Soil arbuscular mycorrhizal richness           | Soil fungal richness: Arbuscular mycorrhiza | Soil_richness_Arbuscular_mycorrhizal | Dafydd Elias    |
+| Leaf spectral diversity                        | Spectral diversity                          | Spectral_diversity            | Matheus Nunes          |
+| Liana abundance                                | Liana abundance                             | Liana_abundance               | Boris Bongalov         |
+| Dung beetle abundance                          | Dung beetle abund.                          | Dung_beetle_abundance         | Eleanor Slade          |
+| Dung beetle diversity: richness                | Dung beetle diversity: q=0                  | Dung_beetle_diversity_q=0     | Eleanor Slade          |
+| Dung beetle diversity: Shannon diversity       | Dung beetle diversity: q=1                  | Dung_beetle_diversity_q=1     | Eleanor Slade          |
+| Dung beetle diversity: Simpson diversity       | Dung beetle diversity: q=2                  | Dung_beetle_diversity_q=2     | Eleanor Slade          |
+| Bird abundance                                 | Bird abund.                                 | Bird_abundance                | Simon Mitchell         |
+| Bird diversity: richness                       | Bird diversity: q=0                         | Bird_diversity_q=0            | Simon Mitchell         |
+| Bird diversity: Shannon diversity              | Bird diversity: q=1                         | Bird_diversity_q=1            | Simon Mitchell         |
+| Bird diversity: Simpsons diversity             | Bird diversity: q=2                         | Bird_diversity_q=2            | Simon Mitchell         |
+| Bat abundance                                  | Bat abund.                                  | Bat_abundance                 | David Hemprich-Bennett |
+| Bat diversity (small scale)                    | Bat diversity (sm scale)                    | Bat_diversity_small_scale     | David Hemprich-Bennett |
+| Bat diversity (large scale): richness          | Bat diversity (lg scale): q=0               | Bat_diversity_large_scale_q=0 | David Hemprich-Bennett |
+| Bat diversity (large scale): Shannon diversity | Bat diversity (lg scale): q=1               | Bat_diversity_large_scale_q=1 | David Hemprich-Bennett |
+| Bat diversity (large scale): Simpson diversity | Bat diversity (lg scale): q=2               | Bat_diversity_large_scale_q=2 | David Hemprich-Bennett |
+| Bat β-diversity: Nestedness                    | Bat β-diversity: Nested.                    | Bat_beta_diversity_Nestedness | David Hemprich-Bennett |
+| Bat β-diversity: Turnover                      | Bat β-diversity: Turn.                      | Bat_beta_diversity_Turnover   | David Hemprich-Bennett |
+| Bat β-diversity: Total                         | Bat β-diversity: Total                      | Bat_beta_diversity_Total      | David Hemprich-Bennett |
 
 ### Level 4 -  Functioning
 
-| Dataset                   | Label                | Filename             | Collector     |
-| ---                       | ---                  | ---                  | ---           |
-| Soil respiration          | Respiration: Soil    | Soil_respiration     | Terhi Riutta  |
-| Stem respiration          | Respiration: Stem    | Stem_respiration     | Terhi Riutta  |
-| Net primary productivity  | NPP                  | NPP                  | Terhi Riutta  |
-| Litterfall                | Litterfall           | Litterfall           | Terhi Riutta  |
-| Leaf litter decomposition | Litter decomposition | Litter_decomposition | Sabine Both   |
-| Dung removal              | Dung removal         | Dung_removal         | Eleanor Slade |
+| Dataset                   | Label                | Filename             | Collector        |
+| ---                       | ---                  | ---                  | ---              |
+| Soil respiration          | Respiration: Soil    | Soil_respiration     | Terhi Riutta     |
+| Stem respiration          | Respiration: Stem    | Stem_respiration     | Terhi Riutta     |
+| Net primary productivity  | NPP                  | NPP                  | Terhi Riutta     |
+| Litterfall                | Litterfall           | Litterfall           | Terhi Riutta     |
+| Leaf litter decomposition | Litter decomposition | Litter_decomposition | Sabine Both      |
+| Soil mycelial production  | Mycelial production  | Hyphal_length        | Samuel Robinson  |
+| Dung removal              | Dung removal         | Dung_removal         | Eleanor Slade    |
