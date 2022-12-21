@@ -1,6 +1,6 @@
 # BALI_synthesis
 
-Data analysis scripts for the manuscript 'Marsh *et al.* **High level ecosystem functions more resilient to tropical forest degradation and deforestation'** *in prep*
+Data analysis scripts for the manuscript **Marsh *et al.* **Logging alters tropical forest structure, while conversion reduces biodiversity and functioning** *in review*** ([preprint available here](https://www.biorxiv.org/content/10.1101/2022.12.15.520573v1))
 
 In the zip file ['BALI_synthesis_analysis.zip'](https://github.com/charliem2003/BALI_synthesis/blob/main/BALI_synthesis_analyses.zip) there are outputs from RMarkdown scripts that include all steps of the analysis for each dataset, including R code, incorporating data visualisation, exploration and standardisation, model building and evaluation, and visualisation of results.
 
