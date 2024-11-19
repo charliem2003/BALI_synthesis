@@ -1,6 +1,8 @@
 # BALI_synthesis
 
-Data analysis scripts for the manuscript **Marsh *et al.* **Logging alters tropical forest structure, while conversion reduces biodiversity and functioning** *in review*** ([preprint available here](https://www.biorxiv.org/content/10.1101/2022.12.15.520573v1))
+Data analysis scripts for the manuscript **Marsh *et al.* **'Tropical forest clearance impacts biodiversity and function whereas logging changes structure** *in review*** ([preprint available here](https://www.biorxiv.org/content/10.1101/2022.12.15.520573v1))
+
+This repo has now been superseded by a Zenodo repository (https://zenodo.org/records/13161799). Please refer to this as the primary source.
 
 In the zip file ['BALI_synthesis_analysis.zip'](https://github.com/charliem2003/BALI_synthesis/blob/main/BALI_synthesis_analyses.zip) there are outputs from RMarkdown scripts that include all steps of the analysis for each dataset, including R code, incorporating data visualisation, exploration and standardisation, model building and evaluation, and visualisation of results.
 
@@ -15,6 +17,8 @@ To repeat any given analysis, follow the respective rmarkdown document, excludin
 2. Run the code at the top of the markdown workflow (sections "Data information" and "Load in necessary libraries")
 3. Do not run the sections "Read in data" through to "Visual inspection of the data"
 4. Continue the analysis from the 'Modelling' section
+
+The zip file ['BALI_synthesis_results_and_figures.zip'[https://github.com/charliem2003/BALI_synthesis/blob/main/BALI_synthesis_results_and_figures.zip) contains R scripts for regenerating versions of the plots and figures presented in the manuscript and SI.
 
 ### Level 1 - Structure & Environment
 | Dataset                              | Label                        | Filename                   | Collector        |
