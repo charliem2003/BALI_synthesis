@@ -8,7 +8,7 @@ In the zip file ['BALI_synthesis_analysis.zip'](https://github.com/charliem2003/
 
 Each dataset presented in the manuscript has an html file within the folder 'Analyses'. For datasets involving bat, bird, dung beetle and tree traits additional markdown documents are available for steps take during data preparation in the folder 'Data preparation'.
 
-In the zip file [https://github.com/charliem2003/BALI_synthesis/blob/main/BALI_synthesis_data.zip](https://github.com/charliem2003/BALI_synthesis/blob/main/BALI_synthesis_results_and_figures.zip) are .rds data files that have been cleaned, prepared and z-score standardised following the procedures outlined in the respective markdown files.
+In the zip file ['BALI_synthesis_data.zip'](https://github.com/charliem2003/BALI_synthesis/blob/main/BALI_synthesis_results_and_figures.zip) are .rds data files that have been cleaned, prepared and z-score standardised following the procedures outlined in the respective markdown files.
 
 To repeat any given analysis, follow the respective rmarkdown document, excluding the data manipulation steps:
 
