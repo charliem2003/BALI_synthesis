@@ -4,6 +4,8 @@ Data analysis scripts for the manuscript **Marsh *et al.* **'Tropical forest cle
 
 This repo has now been superseded by a Zenodo repository (https://zenodo.org/records/13161799). Please refer to this as the primary source.
 
+***Update for Version 2***: The calculation of confidence intervals around the mean effects in Figure 2 has been updated to use the marginaleffects package (many thanks to Biao Wang and Shuang Zhang for pointing out an error in the original code). Using the Satterthwaite method for determining degrees of freedom, the updated confidence intervals are around 32% smaller than our original estimates (MLF = 32.0%, HLF = 32.1%, OP = 21.6%). Note, this change is only relevant to fig. 2 and figs. S2-4; the mean effect sizes and trends along the disturbance gradient, all statistical comparisons, and the constrast analyses in fig. 3 remain unaffected. The updated figures S2-4 and Table S6 can be seen in the file 'Updated figures S2-4 with recalculated confidence intervals.pdf'.
+
 In the zip file ['BALI_synthesis_analysis.zip'](https://github.com/charliem2003/BALI_synthesis/blob/main/BALI_synthesis_analyses.zip) there are outputs from RMarkdown scripts that include all steps of the analysis for each dataset, including R code, incorporating data visualisation, exploration and standardisation, model building and evaluation, and visualisation of results.
 
 Each dataset presented in the manuscript has an html file within the folder 'Analyses'. For datasets involving bat, bird, dung beetle and tree traits additional markdown documents are available for steps take during data preparation in the folder 'Data preparation'.
